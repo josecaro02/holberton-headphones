@@ -736,3 +736,13 @@ top: 0;
         margin-bottom: 34px;
     }
   }
+
+  @media (min-width:481px) and (max-width:768px) {
+    .links-footer {
+      padding-left:  150px;
+    }
+
+    .logo-footer {
+      padding-right: 50px;
+    }
+  }
