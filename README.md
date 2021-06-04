@@ -4,7 +4,7 @@
 
 Implementation from scratch, without any library, a web page. Using all HTML/CSS/Accessibility/Responsive design knowledges learned in Full Stack Specialization.
 
-
+![](https://i.imgur.com/xGZFYMF.jpg)
 # Sections
 This webpage has 5 sections:
 - Hero section
