@@ -338,4 +338,9 @@
         .header-container {
           margin: 0 6.8rem;
         }
+
+        .part1 {
+          background-position: 34% 50%;
+        }
+
       }
