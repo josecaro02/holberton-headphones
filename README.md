@@ -23,3 +23,5 @@ Holberton headphones is responsive, for *phones* with a max. width of 480px, for
 
 ![](https://i.imgur.com/9ZPN1zO.jpg)
 
+# Author
+Jose David Caro Cantor - [Github](https://github.com/josecaro02) / [Twitter](https://twitter.com/j_caro02)  
