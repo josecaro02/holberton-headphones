@@ -569,6 +569,51 @@ top: 0;
            flex-direction: column;
        }
     }
+
+    @media (min-width:481px) and (max-width:768px) {
+
+      .ourResults {
+        height: 876px;
+        background-size: 250%;
+        background-position-x: 40%;
+      }
+      .ourResults .container .section-header {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+      }
+      .ourResults .container .section-body {
+        padding-bottom: 0px;
+      }
+      .ourResults .container .section-body .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+
+      .ourResults .container .section-body .row .col-1-4 {
+        padding: 0;
+        width: 190px;
+        margin-bottom: 42px;
+      }
+      .ourResults .container .section-body .row .col-1-4:nth-child(odd) {
+        flex-basis: 25%;
+        margin-left: 56px;
+        margin-right: 76px;
+        padding: 0;
+
+      }
+
+      .ourResults .container .section-body .row .col-1-4:nth-child(even) {
+        flex-basis: 25%;
+        margin-right: 56px;
+        margin-left: 76px;
+      }
+
+    }
           
 /* FORM
   ============================*/
