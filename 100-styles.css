@@ -433,6 +433,41 @@ top: 0;
          }
        }
 
+
+       @media (min-width:481px) and (max-width:768px) {
+
+        .whatWeDo .container .section-header {
+          width: 100%;
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+        .section-body {
+          padding-bottom: 0px;
+        }
+        .section-body .row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-top: 20px;
+        }
+
+        .section-body .row .col-1-4:nth-child(odd) {
+          flex-basis: 50%;
+          padding-right: 50px;
+          padding-left: 100px;
+        }
+
+        .section-body .row .col-1-4:nth-child(even) {
+          flex-basis: 50%;
+          padding-right: 100px;
+          padding-left: 50px;
+        }
+
+        .section-body .row .col-1-4:nth-child(-n+2){
+          padding-bottom: 67px;
+        }
+      }
+
 /* OUT RESULTS 
        =======================*/
         
